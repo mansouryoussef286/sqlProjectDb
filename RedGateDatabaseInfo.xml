@@ -62,6 +62,17 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>0</Count>
+    <Count>11</Count>
+    <DataFile>dbo.courses_Data.sql</DataFile>
+    <DataFile>dbo.instructor_Data.sql</DataFile>
+    <DataFile>dbo.department_Data.sql</DataFile>
+    <DataFile>dbo.Inst_Courses_Data.sql</DataFile>
+    <DataFile>dbo.questions_Data.sql</DataFile>
+    <DataFile>dbo.topics_Data.sql</DataFile>
+    <DataFile>dbo.choices_Data.sql</DataFile>
+    <DataFile>dbo.students_Data.sql</DataFile>
+    <DataFile>dbo.exams_Data.sql</DataFile>
+    <DataFile>dbo.stud_courses_Data.sql</DataFile>
+    <DataFile>dbo.exams_questions_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
