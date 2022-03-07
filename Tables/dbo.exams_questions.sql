@@ -2,7 +2,7 @@ CREATE TABLE [dbo].[exams_questions]
 (
 [exam_ID] [int] NOT NULL,
 [q_ID] [int] NOT NULL,
-[answer] [varchar] (50) COLLATE Arabic_CI_AS NULL,
+[answer] [int] NULL,
 [St_ID] [int] NULL
 ) ON [PRIMARY]
 GO
