@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+create PROC [dbo].[Department_Insert] @Dept_ID INT, @Dept_Name VARCHAR(50) ,@Manager_ID INT
+AS
+	BEGIN TRY
+		INSERT INTO department
+		VALUES(@Dept_ID,@Dept_Name,@Manager_ID);
+		RETURN  200;
+	END TRY
+	BEGIN CATCH
+		RETURN  400;
+	END CATCH
+GO
