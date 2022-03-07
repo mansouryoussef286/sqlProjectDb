@@ -1,0 +1,9 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROC [dbo].[instructor_select]
+AS
+	SELECT * 
+	FROM instructor
+GO
