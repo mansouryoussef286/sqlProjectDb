@@ -1,7 +1,6 @@
 CREATE TABLE [dbo].[exams]
 (
 [exam_ID] [int] NOT NULL IDENTITY(1, 1),
-[exam_grade] [int] NULL,
 [course_ID] [int] NOT NULL
 ) ON [PRIMARY]
 GO
