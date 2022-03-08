@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROC [dbo].[report_StudentExMA] @ExamID INT , @StudID INT
+CREATE PROC [reports].[report_StudentExMA] @ExamID INT , @StudID INT
 AS
 	--Select question and student answer in table1
 	DECLARE @t1 TABLE(Question VARCHAR(max) ,[Student Answer] VARCHAR(max), QID INT)

@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-create proc [dbo].[AssignExamStudent] @examid int,@stdID int
+create proc [exams].[AssignExamStudent] @examid int,@stdID int
 as
 --insert info in exam-student table
 insert into Exam_Student (St_ID, Exam_ID)

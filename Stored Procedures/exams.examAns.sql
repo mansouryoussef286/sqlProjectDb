@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROC [dbo].[examAns] @examID INT, @stID INT, @q1 INT, @q2 INT, @q3 INT, @q4 INT, @q5 INT, @q6 INT,  @q7 INT,  @q8 INT,  @q9 INT, @q10 INT
+CREATE PROC [exams].[examAns] @examID INT, @stID INT, @q1 INT, @q2 INT, @q3 INT, @q4 INT, @q5 INT, @q6 INT,  @q7 INT,  @q8 INT,  @q9 INT, @q10 INT
 AS
 
 /*Create Cursor To Work on Each Question Seperately*/

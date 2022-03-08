@@ -8,3 +8,5 @@ CREATE TABLE [dbo].[instructor]
 GO
 ALTER TABLE [dbo].[instructor] ADD CONSTRAINT [PK_instructor] PRIMARY KEY CLUSTERED ([inst_ID]) ON [PRIMARY]
 GO
+CREATE UNIQUE NONCLUSTERED INDEX [IX_instructor] ON [dbo].[instructor] ([inst_username]) ON [PRIMARY]
+GO
