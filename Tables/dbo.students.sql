@@ -10,5 +10,7 @@ CREATE TABLE [dbo].[students]
 GO
 ALTER TABLE [dbo].[students] ADD CONSTRAINT [PK_students] PRIMARY KEY CLUSTERED ([stud_ID]) ON [PRIMARY]
 GO
+CREATE UNIQUE NONCLUSTERED INDEX [IX_students] ON [dbo].[students] ([stud_Username]) ON [PRIMARY]
+GO
 ALTER TABLE [dbo].[students] ADD CONSTRAINT [FK_students_department] FOREIGN KEY ([dept_ID]) REFERENCES [dbo].[department] ([dept_ID])
 GO
