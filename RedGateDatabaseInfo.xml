@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DatabaseInformation Version="3">
   <ScriptFileEncoding>UTF8</ScriptFileEncoding>
-  <DefaultCollation>Arabic_CI_AS</DefaultCollation>
+  <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
   <DefaultSchema>dbo</DefaultSchema>
   <DefaultUser>dbo</DefaultUser>
   <DefaultFilegroup>PRIMARY</DefaultFilegroup>
@@ -62,7 +62,7 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>11</Count>
+    <Count>12</Count>
     <DataFile>dbo.courses_Data.sql</DataFile>
     <DataFile>dbo.instructor_Data.sql</DataFile>
     <DataFile>dbo.department_Data.sql</DataFile>
@@ -74,5 +74,6 @@
     <DataFile>dbo.exams_Data.sql</DataFile>
     <DataFile>dbo.stud_courses_Data.sql</DataFile>
     <DataFile>dbo.exams_questions_Data.sql</DataFile>
+    <DataFile>dbo.Exam_Student_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
