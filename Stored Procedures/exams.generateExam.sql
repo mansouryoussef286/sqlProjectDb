@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE procedure [dbo].[generateExam] @courseName varchar(50), @TFnum int, @mcqNum int
+CREATE procedure [exams].[generateExam] @courseName varchar(50), @TFnum int, @mcqNum int
 as
 --get the course id
 declare @courseID int

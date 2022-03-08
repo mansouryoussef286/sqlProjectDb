@@ -1,0 +1,3 @@
+CREATE SCHEMA [exams]
+AUTHORIZATION [dbo]
+GO

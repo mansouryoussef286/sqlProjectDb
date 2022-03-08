@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-create proc [dbo].[correctExam] @examID int, @stdID int
+create proc [exams].[correctExam] @examID int, @stdID int
 as
 --declare the grade variable
 declare @grade int = 0
