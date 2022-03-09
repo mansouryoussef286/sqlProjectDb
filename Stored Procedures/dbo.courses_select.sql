@@ -3,8 +3,7 @@ GO
 SET ANSI_NULLS ON
 GO
 
-create proc [dbo].[courses_select] @cID int
+CREATE proc [dbo].[courses_select] 
 as
-select * from courses
-where c_ID = @cID;
+select c_ID from courses;
 GO
