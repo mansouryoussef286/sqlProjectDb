@@ -1,3 +1,5 @@
-INSERT INTO [dbo].[courses] ([c_ID], [c_name]) VALUES (1, N'HTML')
-INSERT INTO [dbo].[courses] ([c_ID], [c_name]) VALUES (2, N'C#')
-INSERT INTO [dbo].[courses] ([c_ID], [c_name]) VALUES (3, N'AJAX')
+INSERT INTO [dbo].[courses] ([c_ID], [c_name]) VALUES (4, N'JS')
+INSERT INTO [dbo].[courses] ([c_ID], [c_name]) VALUES (5, N'ES')
+INSERT INTO [dbo].[courses] ([c_ID], [c_name]) VALUES (1, N'html')
+INSERT INTO [dbo].[courses] ([c_ID], [c_name]) VALUES (2, N'c#')
+INSERT INTO [dbo].[courses] ([c_ID], [c_name]) VALUES (3, N'ajax')
